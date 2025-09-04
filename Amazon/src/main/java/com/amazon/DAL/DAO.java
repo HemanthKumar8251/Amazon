@@ -19,7 +19,7 @@ public class DAO {
 			Class.forName("org.postgresql.Driver");
 			// con = DriverManager.getConnection("jdbc:postgresql://192.168.110.48:5432/plf_training",
 			// "plf_training_admin", "pff123");
-			con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/hemanth", "postgres", "Niha@8251");
+			con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/hemanth", "postgres", "password");
 			System.out.println("Connected to PostgreSQL database!");
 		} catch (SQLException | ClassNotFoundException e) {
 			// TODO Auto-generated catch block
